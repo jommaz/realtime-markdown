@@ -1,0 +1,32 @@
+{
+  "name": "RealtimeMarkdownViewer",
+  "version": "1.0.0",
+  "description": "Realtime Markdown viewer for HTMl that allows colloboration created using node.js",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.1",
+    "redis": "^0.12.1",
+    "share": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jommaz/realtime-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Mazen Jomaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jommaz/realtime-markdown/issues"
+  },
+  "homepage": "https://github.com/jommaz/realtime-markdown"
+}
